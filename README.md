@@ -13,13 +13,16 @@
 
 ## 安装
 
-在 `pubspec.yaml` 文件的 `dependencies` 部分添加 `flutter_tabx`：
+在 `pubspec.yaml` 文件的 `dependencies` 部分添加 `flutter_tabx`，通过 Git 引用：
 
 ```yaml
 dependencies:
   flutter:
     sdk: flutter
-  flutter_tabx: ^latest_version # 替换为最新版本号
+  flutter_tabx:
+    git:
+      url: https://github.com/superxabc/flutter_tabx.git
+      ref: main # 或者您希望引用的分支/标签/提交哈希
 ```
 
 然后运行 `flutter pub get`。
