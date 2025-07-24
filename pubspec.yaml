@@ -1,0 +1,19 @@
+
+name: flutter_tabx
+description: A highly customizable TabBar and PageView component library for Flutter.
+version: 0.1.0
+repository: https://github.com/superxabc/flutter_tabx
+homepage: https://github.com/superxabc/flutter_tabx
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
